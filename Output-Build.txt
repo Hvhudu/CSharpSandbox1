@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: Homework2, Configuration: Debug Any CPU ------
+1>C:\Users\Подарок\source\repos\CSharpSandbox1\Homework2\Ex2.cs(15,20,15,24): warning CS0219: The variable 'str3' is assigned but its value is never used
+1>  Homework2 -> C:\Users\Подарок\source\repos\CSharpSandbox1\Homework2\bin\Debug\Homework2.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

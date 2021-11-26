@@ -10,25 +10,20 @@ namespace Homework3
     {
         static void Main(string[] args)
         {
-             Console.Write("Введите число : ");
-             int num = Convert.ToInt32(Console.ReadLine());
-             Console.Write("{0} = 1", num);
-             for (int i = 0; num % 2 == 0; num /= 2)
-             {
-                    Console.Write(" * {0}", 2);
-             }
-             for (int i = 3; i <= num;)
-             {
-                if (num % i == 0)
+            int[] arr = new int[10];
+            Random rnd = new Random();
+            
+            for (int i = 0; i < 10; i++)
+            {
+                arr[i] = rnd.Next(0,10);
+                Console.Write($"{arr[i]} ");
+                Array.Sort(arr);
+                if (arr[i] == 0) 
                 {
-                    Console.WriteLine(" * {0}", i);
-                    num /= i;
+                    
                 }
-                else
-                {
-                    i += 2;
-                }
-             }         
+            }
+            
         }
     }
 }
